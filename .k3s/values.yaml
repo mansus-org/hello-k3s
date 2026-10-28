@@ -1,0 +1,8 @@
+# Deploy settings for this repo on the mansus.org cluster.
+ingress:
+  host: hello.mansus.org
+
+port: 8080
+
+healthCheck:
+  path: /
